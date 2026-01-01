@@ -1,0 +1,8 @@
+diff --git a/templates/intercept_log.csv b/templates/intercept_log.csv
+new file mode 100644
+index 0000000000000000000000000000000000000000..6bae44e92c09806de81c5f6ca9bff47f8a414c79
+--- /dev/null
++++ b/templates/intercept_log.csv
+@@ -0,0 +1,2 @@
++timestamp,frequency_mhz,modulation,service,classification,rssi_dbm,notes
++2025-01-01 12:00:00,162.550,FM,NOAA Weather,ELINT,-45,Short description of the intercept
