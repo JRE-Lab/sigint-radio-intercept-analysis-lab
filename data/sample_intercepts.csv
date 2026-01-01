@@ -1,0 +1,17 @@
+diff --git a/data/sample_intercepts.csv b/data/sample_intercepts.csv
+new file mode 100644
+index 0000000000000000000000000000000000000000..7422fbd6ddd321cb5adc1dd60f5196045b0c7c8a
+--- /dev/null
++++ b/data/sample_intercepts.csv
+@@ -0,0 +1,11 @@
++timestamp,frequency_mhz,modulation,service,classification,rssi_dbm,notes
++2025-01-12 14:02:11,162.550,FM,NOAA Weather,ELINT,-38,Automated weather loop with marine forecast
++2025-01-12 14:17:09,118.750,AM,Airband AM,COMINT,-52,ATIS for local airport
++2025-01-12 15:05:43,121.500,AM,Airband AM,COMINT,-48,Guard frequency heard with training call
++2025-01-12 16:22:31,1090.000,Mode S,ADS-B,ELINT,-31,Mode S/ADS-B bursts from multiple aircraft
++2025-01-12 17:41:03,161.975,GMSK,AIS,ELINT,-44,AIS position reports (decoded)
++2025-01-13 09:13:55,146.520,FM,Amateur 2m,COMINT,-57,Simplex QSO between two operators
++2025-01-13 10:44:19,100.700,FM,FM Broadcast,COMINT,-27,Local news station
++2025-01-13 12:29:07,137.912,FM,Weather Satellite,ELINT,-65,NOAA APT downlink burst
++2025-01-14 08:12:48,121.900,AM,Airband AM,COMINT,-50,Ground control coordination
++2025-01-14 13:27:55,162.025,GMSK,AIS,ELINT,-46,Coastal AIS traffic near harbor
